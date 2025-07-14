@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { TodoContext } from "../context/TodoContext";
+
+
 const Todo = (props) => {
   // Destructuring todos state and setTodos function from TodoContext
   const [todos, setTodos] = useContext(TodoContext);
